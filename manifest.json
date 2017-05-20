@@ -1,6 +1,6 @@
 {
-  "name": "Preact PWA",
-  "short_name": "Preact PWA",
+  "name": "Twttr Stream",
+  "short_name": "Twttr Stream",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

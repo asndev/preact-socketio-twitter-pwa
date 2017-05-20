@@ -1,5 +1,41 @@
-.home {
-	padding: 56px 20px;
-	min-height: 100%;
-	width: 100%;
+.content {
+  display: flex;
+  height: 100%;
+  margin-top: 56px;
+}
+
+.tweets,
+.frequencies {
+  padding: 0 25px;
+  min-height: 100%;
+  width: 48vw;
+}
+
+.tweets {
+  color: white;
+  background-color: #222;
+}
+
+.frequencies {
+  color: #222;
+}
+
+ul {
+  list-style: none;
+}
+
+.badge {
+  margin-right: 20px;
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #777;
+  border-radius: 10px;
 }
